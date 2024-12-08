@@ -1,0 +1,12 @@
+*{
+    text-align:center;
+    margin: 0;
+    padding:0;
+    background-color: rgb(247, 196, 154);
+    
+}
+
+.baseCardH2{
+    margin: 2rem 22rem 0rem 22rem;
+    color:rgb(105, 101, 101);
+}

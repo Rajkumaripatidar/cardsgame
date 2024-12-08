@@ -1,0 +1,34 @@
+
+.btnStart{
+    height:2.5rem;
+    width:6rem;
+    margin-top:3rem;
+    background-color:rgb(143, 139, 140)!important;
+    color:rgb(255, 255, 255)!important;
+    padding-top:.3rem;
+    border:.1rem solid black;
+}
+.carddiv{
+    display:flex;
+}
+h2{
+    color:rgb(105, 101, 101);
+    font-weight:900;
+
+}
+.resstartbtn{
+    height:2.5rem;
+    width:6rem;
+    margin-top:3rem;
+    background-color:rgb(143, 139, 140)!important;
+    color:rgb(255, 255, 255)!important;
+    padding-top:.3rem;
+    border:.1rem solid black;
+
+}
+h6{
+    color:rgb(194, 101, 101);
+}
+h1{
+    color:rgb(28, 102, 37)
+}
