@@ -24,7 +24,7 @@ export default function GameCard({GameCount}){
     let result = GameArr.filter(GameCardGen);
 
     return(
-        <div>
+        <div className="divs">
             <img src={result} ></img>
         </div>
     )

@@ -1,6 +1,6 @@
 
 .btnStart{
-    height:2.5rem;
+
     width:6rem;
     margin-top:3rem;
     background-color:rgb(143, 139, 140)!important;
@@ -11,6 +11,16 @@
 .carddiv{
     display:flex;
 }
+
+@media (min-width:150px) and (max-width:400px){
+    .carddiv{
+        display: flex;
+        flex-direction: column;
+        height: 27rem;
+        justify-content: space-evenly;
+    }
+}
+
 h2{
     color:rgb(105, 101, 101);
     font-weight:900;
@@ -30,5 +40,15 @@ h6{
     color:rgb(194, 101, 101);
 }
 h1{
-    color:rgb(28, 102, 37)
+    color:rgb(158, 104, 75)
+}
+@media (min-width:400px) and (max-width:500px){
+    h1{
+      font-size: 200%!important;
+}
+}
+@media (min-width:100px) and (max-width:400px){
+    h1{
+      font-size: 150%!important;
+}
 }

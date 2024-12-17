@@ -68,7 +68,7 @@ export default function LogicCard({styleBtn}){
                 {
                 !isstyleforNext ? (
                     <div> 
-                        <h1 style={{display: !iscondiOneNextBtn ? "none": null}}>Congratulation You Won!</h1>
+                        <h1 style={{display: !iscondiOneNextBtn ? "none": null}}>Congratulations You Won!</h1>
                         <button className="resstartbtn" onClick={restartAgain} style={{display: !iscondiOneNextBtn ? "none": null}}>Restart</button>
                     </div>
                 ):null

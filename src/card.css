@@ -7,6 +7,20 @@
 }
 
 .baseCardH2{
-    margin: 2rem 22rem 0rem 22rem;
+    margin:2%;
     color:rgb(105, 101, 101);
 }
+
+/* @media (min-width:900px) and (max-width:1000px){
+    .baseCardH2{
+        font-size:1.2rem;
+        color:red;
+    }
+}
+
+@media (min-width:500px) and (max-width:900px){
+    .baseCardH2{
+        font-size:1%;
+        color:rgb(33, 13, 145);
+    }
+} */

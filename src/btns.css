@@ -9,3 +9,15 @@ button{
 
 
 }
+.divbtn{
+    position: absolute;
+    right: 0;
+    left: 0;
+}
+@media (min-width:200px) and (max-width:400px){
+    .divbtn{
+        position: absolute;
+        right: 0;
+        left: 0;
+    }
+    }

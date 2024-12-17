@@ -7,7 +7,7 @@ export default function BtnContainer({action1 ,action2, styleBtn1, iscondiOneNex
     
 
     return(
-        <div style={{display:styleBtn1}}>
+        <div style={{display:styleBtn1}} className="divbtn">
             {
             isstyleforNext ? (
                 <button onClick={action1} style={{display:iscondiOneNextBtn ? null :"none"}}>Next1</button>
